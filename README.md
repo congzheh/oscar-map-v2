@@ -1,6 +1,10 @@
 # Oscar Map V2
 
 一个连飞地图。
+https://github.com/sparrowhe/oscar-map-v2
+
+# 分支版本
+界面颜色、设置界面、气象显示灯进行了增加、修改
 
 # 开源协议
 本项目基于 Phosphorus Public License 开源。  
