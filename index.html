@@ -17,8 +17,9 @@
         <script src="static/js/external/leaflet.MultiOptionsPolyline.min.js"></script>
         <script src="static/js/external/L.Control.Layers.Tree.js"></script>
         <script src="static/js/oscar-map-v2.core.js"></script>
+       
     </head>
-    <body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-blue-grey" onload="init()">
+    <body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-primary-pink mdui-theme-layout-dark" onload="init()">
         <div class="mdui-appbar mdui-appbar-fixed">
             <div class="mdui-toolbar mdui-color-theme">
               <a href="javascript:;" class="mdui-typo-headline">XNATC 连飞地图</a>
@@ -81,6 +82,7 @@
         <div class="mdui-dialog" id="settingDialog">
           <div class="mdui-dialog-title">设置</div>
           <div class="mdui-dialog-content">
+            <span>显示设置：</span>
             <label class="mdui-checkbox">
               <input type="checkbox" id="show-pilot" checked/>
               <i class="mdui-checkbox-icon"></i>
@@ -101,6 +103,29 @@
               <i class="mdui-checkbox-icon"></i>
               <span>显示非正式席位</span>
             </label>
+            <br/>
+            <span>附加图层：</span>
+            <label class="mdui-checkbox">
+              <input type="checkbox" id="h-route" />
+              <i class="mdui-checkbox-icon"></i>
+              <span>高空航路</span>
+            </label>
+             <label class="mdui-checkbox">
+              <input type="checkbox" id="l-route" />
+              <i class="mdui-checkbox-icon"></i>
+              <span>低空航路</span>
+            </label>
+            <label class="mdui-checkbox">
+              <input type="checkbox" id="atc-s" />
+              <i class="mdui-checkbox-icon"></i>
+              <span>管制区域</span>
+            </label>
+            <label class="mdui-checkbox">
+              <input type="checkbox" id="weather" />
+              <i class="mdui-checkbox-icon"></i>
+              <span>气象显示</span>
+            </label>
+               <small>（关闭功能刷新有效）</small>
             <br>
             <span>地图选择：</span>
             <label class="mdui-radio">
@@ -118,7 +143,7 @@
               <i class="mdui-radio-icon"></i>
               天地图
             </label>
-            <small>本设置刷新有效</small>
+            <small>（本设置刷新有效）</small>
             <br>
             <span>标牌设置：</span>
             <label class="mdui-checkbox">
@@ -158,6 +183,9 @@
               <i class="mdui-checkbox-icon"></i>
               <span>计划航路</span>
             </label>
+            
+            <br>
+           
             <div class="mdui-typo">
               <p><a href="thanks.html">致谢</a></p>
             </div>
