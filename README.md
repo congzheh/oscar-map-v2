@@ -4,7 +4,7 @@
 https://github.com/sparrowhe/oscar-map-v2
 
 # 分支版本
-界面颜色、设置界面、气象显示灯进行了增加、修改
+界面颜色、设置界面、气象显示灯进行了增加、修改。
 原版Demo:https://www.xnatc.com/
 修改版Demo：https://vi.xnatc.ink/
 
