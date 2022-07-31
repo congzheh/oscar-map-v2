@@ -10,6 +10,11 @@ https://github.com/sparrowhe/oscar-map-v2
 
 修改版Demo：https://vi.xnatc.ink/
 
+# 版权声明
+本程序作者为0225(SparrowHe)
+
+请遵守相关开源协议！！！
+
 
 # 开源协议
 本项目基于 Phosphorus Public License 开源。  
